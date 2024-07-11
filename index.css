@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding: 0;
     font-family: "Anton SC", sans-serif;
   font-style: normal;
   background-color: rgb(42, 41, 41);
@@ -9,7 +10,7 @@ body{
 header{
     /* background: linear-gradient(to bottom , black,rgb(0, 0, 0), white); */
     height: 70vh;
-    width: 100%;
+    /* width: 100%; */
 
 }
 nav{
@@ -29,7 +30,7 @@ a{
 }
 #nav-div{
     display: flex;
-    padding: 0px 150px;
+    padding: 0px 140px;
     justify-content: space-between;
     margin: 0; 
 }
@@ -49,7 +50,7 @@ a{
     float: right;
     position: relative;
     display: flex;
-    padding-right: 50px;
+    /* padding-right: 50px; */
 }
 #slidebar li{
     animation: nav-li linear;
@@ -216,8 +217,10 @@ display: flex;
 
 @media only screen and (max-width: 700px) {
     body{
-        margin: 0;
-        padding: 0;
+        /* width: 100%; */
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
         border: red solid;
     }
     nav{
@@ -230,7 +233,7 @@ display: flex;
         left: 0;
         right: 0;
         position: absolute;
-        /* width: 650px; */
+        width: 100%;
     }
     a{
         color:  rgb(108, 158, 209);
@@ -296,7 +299,7 @@ display: flex;
     color: white;
 }
 .name{
-    /* width: 650px; */
+    width: 100%;
     margin-top: 200px;
     text-align: center;
     align-items: center;
@@ -327,7 +330,7 @@ display: flex;
 }
 /* -------------secion-2-------------- */
 #section-2{
-    /* width: 650px; */
+    width: 100%;
     height: 1000px;
     font-size: 70px;
     background-color: white;
@@ -375,7 +378,7 @@ display: flex;
 
 /* -------------section-3------------- */
 .section-3{
-    /* width: 650px; */
+    width: 100%;
     margin: auto;
     text-align: center;
     color: white;
