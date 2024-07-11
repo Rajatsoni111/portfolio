@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
@@ -10,7 +13,7 @@ body{
 header{
     /* background: linear-gradient(to bottom , black,rgb(0, 0, 0), white); */
     height: 70vh;
-    /* width: 100%; */
+    width: 100%;
 
 }
 nav{
@@ -30,7 +33,7 @@ a{
 }
 #nav-div{
     display: flex;
-    padding: 0px 140px;
+    padding: 0px 150px;
     justify-content: space-between;
     margin: 0; 
 }
@@ -217,10 +220,10 @@ display: flex;
 
 @media only screen and (max-width: 700px) {
     body{
-        /* width: 100%; */
+        width: 100%;
         margin: 0px;
         padding: 0px;
-        overflow: hidden;
+        /* overflow: hidden; */
         border: red solid;
     }
     nav{
@@ -242,7 +245,7 @@ display: flex;
     #nav-div{
         display: flex;
         font-family: Teko, sans-serif	;
-        padding: 0px 50px;
+        padding: 0px 30px;
         justify-content: space-between;
         margin: 0; 
     }
@@ -276,9 +279,9 @@ display: flex;
     color: white;
     position: fixed;
     top: -16px;
-    right: 0;
+    right: 0px;
     height: 100%;
-    width: 150px;
+    width: 250px;
     z-index: 999;
     background-color:  rgb(108, 158, 209,0.1);
     flex-direction: column;
